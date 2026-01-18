@@ -52,6 +52,6 @@ The OLED firmware is different and can be found here [Firmware](https://docs.kee
 
 ## How to build 
 - Be very careful when soldering pads next to rotary encoder through holes (encoder pin b), you may get bridging.
--- I've moved the pin slightly close to the ground pin to aleviate this issue a bit. This should not affect assembly.
+-- I've moved the pin slightly closer to the ground pin to aleviate this issue a bit. This should not affect assembly.
 
-You can follow the instreuctions from the main [readme](https://github.com/imchipwood/dumbpad#getting-started) or follow the instructiosn in this [blog](https://www.timowielink.com/post/how-to-build-a-macropad) from [Timo Wielink](https://github.com/TimoWielink)
+You can follow the instructions from the main [readme](https://github.com/imchipwood/dumbpad#getting-started) or follow the instructiosn in this [blog](https://www.timowielink.com/post/how-to-build-a-macropad) from [Timo Wielink](https://github.com/TimoWielink)
