@@ -9,7 +9,6 @@ Designed by [ReyvanZA]
 Version of the original dumbpad but with support for an OLED display by Keebd, now with low profile hot swap sockets.
 The EC11 rotary encoder-compatible slots have a non-plated through-punch for their mounting point on each side, which may be flagged as erronious by PCB manufacturers but has no effect on functionality.
 
-
 ### Revisions
 
 - 1.2 Keebd OLED with resistors
@@ -18,9 +17,11 @@ The EC11 rotary encoder-compatible slots have a non-plated through-punch for the
 
 - Gateron low profile hot-swap sockets: https://gist.github.com/niw/22c68c2d7c869b990588b4875a654442
 
-### Challenges
+### Challenges/Todo
 
 - Check keycap clearance
+- Update EC11 and socket combo overlap through holes to both be plated.
+- Add mounting holes for micro-controller cover plate.
 
 #### dumbpad v1.3
 
@@ -52,6 +53,10 @@ The OLED firmware is different and can be found here [Firmware](https://docs.kee
 
 ## How to build 
 - Be very careful when soldering pads next to rotary encoder through holes (encoder pin b), you may get bridging.
--- I've moved the pin slightly closer to the ground pin to aleviate this issue a bit. This should not affect assembly.
+- I've moved the pin slightly closer to the ground pin to aleviate this issue a bit. This should not affect assembly.
 
 You can follow the instructions from the main [readme](https://github.com/imchipwood/dumbpad#getting-started) or follow the instructiosn in this [blog](https://www.timowielink.com/post/how-to-build-a-macropad) from [Timo Wielink](https://github.com/TimoWielink)
+
+When the production file is created by your PCB manufacturer, you may have a query on the overlapping through holes. If given the option allow them to plate both holes.
+
+![Manufacturer](img/pcb_manu_image.png)
