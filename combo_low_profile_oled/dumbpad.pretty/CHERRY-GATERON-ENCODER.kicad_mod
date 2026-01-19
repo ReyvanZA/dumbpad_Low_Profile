@@ -142,7 +142,7 @@
 		(uuid "020ca76c-91f9-456d-823c-89704ffff1f8")
 	)
 	(fp_line
-		(start 4.6 6.2)
+		(start 4.87 6.2)
 		(end 6.6 6.2)
 		(stroke
 			(width 0.2032)
@@ -414,12 +414,14 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "bc14563a-fd61-41e8-89ce-41920fcefa1f")
 	)
-	(pad "" np_thru_hole circle
-		(at 2.6 5.75)
-		(size 3 3)
-		(drill 3)
+	(pad "" thru_hole oval
+		(at 1.17 5.93 280)
+		(size 2.4 3.4)
+		(drill oval 2 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "9c415592-aded-4efe-b3d6-39e1cf8f7360")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "6d2f36ee-4668-4f25-a9b9-b927b03acd99")
 	)
 	(pad "A" thru_hole circle
 		(at -7.5 -2.5 270)
@@ -456,6 +458,16 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.0635)
 		(uuid "f3574081-9199-4fc3-9915-09ac611201fc")
+	)
+	(pad "CASE1" thru_hole circle
+		(at 2.6 5.75 90)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(solder_mask_margin 0.0635)
+		(uuid "6694087d-21d6-4f92-8938-ee9bb70d0674")
 	)
 	(pad "CASE2" thru_hole oval
 		(at 0 -6.1 90)

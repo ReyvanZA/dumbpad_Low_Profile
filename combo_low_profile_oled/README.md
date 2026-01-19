@@ -6,12 +6,14 @@ Designed by [ReyvanZA]
 
 ## Description
 
-Version of the original dumbpad but with support for an OLED display by Keebd, now with low profile hot swap sockets.
-The EC11 rotary encoder-compatible slots have a non-plated through-punch for their mounting point on each side, which may be flagged as erronious by PCB manufacturers but has no effect on functionality.
+Version of the original dumbpad but with support for an OLED display by Keebd, now with gateron low profile hot swap sockets.
+There are also mounting points for a uController cover, and through holes for wires if using a ProMicro nrf52840 for the battery wires (admittedly not overly practical).
 
 ### Revisions
 
 - 1.2 Keebd OLED with resistors
+- 1.3.1 Gateron low profile hot-swap sockets (in production - waiting for delivery)
+- 1.3.2 Combined plated though holes for EC11 rotary encoder mounting points and socket, added mounting holes for uController cover.
 
 ### References
 
@@ -20,16 +22,13 @@ The EC11 rotary encoder-compatible slots have a non-plated through-punch for the
 ### Challenges/Todo
 
 - Check keycap clearance
-- Update EC11 and socket combo overlap through holes to both be plated.
-- Add mounting holes for micro-controller cover plate.
 
-#### dumbpad v1.3
+#### dumbpad v1.3.1
 
 ![pcbs]
 ![finished]
 
-
-#### Renders
+#### Renders (Latest Revision)
 
 ![front](img/dumbpad_oled_v1_3_front.png)
 ![back](img/dumbpad_oled_v1_3_back.png)
@@ -55,8 +54,8 @@ The OLED firmware is different and can be found here [Firmware](https://docs.kee
 - Be very careful when soldering pads next to rotary encoder through holes (encoder pin b), you may get bridging.
 - I've moved the pin slightly closer to the ground pin to aleviate this issue a bit. This should not affect assembly.
 
-You can follow the instructions from the main [readme](https://github.com/imchipwood/dumbpad#getting-started) or follow the instructiosn in this [blog](https://www.timowielink.com/post/how-to-build-a-macropad) from [Timo Wielink](https://github.com/TimoWielink)
+You can follow the instructions from the main [readme](https://github.com/imchipwood/dumbpad#getting-started) or follow the instruction in this [blog](https://www.timowielink.com/post/how-to-build-a-macropad) from [Timo Wielink](https://github.com/TimoWielink)
 
-When the production file is created by your PCB manufacturer, you may have a query on the overlapping through holes. If given the option allow them to plate both holes.
+When the 1.3.1 production file is created by your PCB manufacturer, you may have a query on the overlapping through holes. If given the option allow them to plate both holes.
 
 ![Manufacturer](img/pcb_manu_image.png)
