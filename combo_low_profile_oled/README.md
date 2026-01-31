@@ -1,5 +1,3 @@
-## DO NOT USE THIS PCB - Project not finished
-
 # dumbpad - Low Profile OLED (aka v1.3)
 
 Designed by [ReyvanZA]
@@ -9,10 +7,12 @@ Designed by [ReyvanZA]
 Version of the original dumbpad but with support for an OLED display by Keebd, now with gateron low profile hot swap sockets.
 There are also mounting points for a uController cover, and through holes for wires if using a ProMicro nrf52840 for the battery wires (admittedly not overly practical).
 
+Only 1.3.1 has been tested with the gateron low profile hot-swap sockets, but the design files for 1.3 and 1.3.2 are included for reference. Keycap clearance has not been tested yet.
+
 ### Revisions
 
 - 1.2 Keebd OLED with resistors
-- 1.3.1 Gateron low profile hot-swap sockets (in production - waiting for delivery)
+- 1.3.1 Gateron low profile hot-swap sockets (Confirmed working - need low profile keys to test)
 - 1.3.2 Combined plated though holes for EC11 rotary encoder mounting points and socket, added mounting holes for uController cover.
 
 ### References
@@ -25,8 +25,8 @@ There are also mounting points for a uController cover, and through holes for wi
 
 #### dumbpad v1.3.1
 
-![pcbs]
-![finished]
+![pcbs](img/pcb.jpg)
+![finished](img/switches.jpg)
 
 #### Renders (Latest Revision)
 
@@ -52,7 +52,7 @@ The OLED firmware is different and can be found here [Firmware](https://docs.kee
 
 ## How to build 
 - Be very careful when soldering pads next to rotary encoder through holes (encoder pin b), you may get bridging.
-- I've moved the pin slightly closer to the ground pin to aleviate this issue a bit. This should not affect assembly.
+- I've moved the pin slightly closer to the ground pin to aleviate this issue. This does not affect assembly.
 
 You can follow the instructions from the main [readme](https://github.com/imchipwood/dumbpad#getting-started) or follow the instruction in this [blog](https://www.timowielink.com/post/how-to-build-a-macropad) from [Timo Wielink](https://github.com/TimoWielink)
 

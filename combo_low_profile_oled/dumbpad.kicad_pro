@@ -511,7 +511,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../Documents/dumbpad.stl",
       "svg": "",
       "vrml": ""
     },
